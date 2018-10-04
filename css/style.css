@@ -280,7 +280,7 @@ section{
 .heading-title > span{
     font-size: 1.25rem;
     display: block;
-    text-transform: capitalize;
+   
     color: #00bcd4;
 }
 .whitecolor.heading-title > span{
@@ -504,7 +504,7 @@ ul.social-icons.white li a:focus{
     background: #00bcd4;
 }
 .btnsecondary{
-   background: #643094;
+   background: #cbd155;
 }
 .btnwhite{
     background: #fff;
@@ -527,8 +527,8 @@ ul.social-icons.white li a:focus{
     margin-top: -3px;
 }
 .btnprimary:hover, .btnprimary:focus{
-   background: #643094;
-   border: 1px solid #643094;
+   background: #cbd155;
+   border: 1px solid #cbd155;
 }
 .btnprimary-alt:hover, .btnprimary-alt:focus {
    background: transparent;
@@ -954,7 +954,7 @@ i::before,i::after{
 	position: fixed;
 	right: 0;
 	top: 0;
-	background: #00bcd4;
+	background: #2b2c2c;
 	z-index: 1032;
 	height: 100%;
 	-webkit-transform: translate3d(100%, 0, 0);
@@ -2163,9 +2163,9 @@ i::before,i::after{
    cursor: default;
 }
 .cbp-l-filters .cbp-filter-item:hover span {
-    border: 1px solid #643094;
+    border: 1px solid #ccd255;
    color: #fff;
-   background: #643094;
+   background: #ccd255;
 }
 .cbp-l-filters .cbp-filter-item-active span,
 .cbp-l-filters .cbp-filter-item:focus span {
