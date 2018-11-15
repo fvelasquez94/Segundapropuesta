@@ -22,7 +22,7 @@ ConvState.prototype.newState = function(options) {
         name: '',
         noAnswer: false,
         required: true,
-        questions: ['You forgot the question!'],
+        questions: ['Olvidaste esta pregunta!'],
         type: 'text',
         multiple: false,
         selected: "",
@@ -212,7 +212,7 @@ ConvState.prototype.answerWith = function(answerText, answerObject) {
         $(this).addClass('conv-form-wrapper');
 
         var parameters = $.extend(true, {}, {
-            placeHolder : 'Type Here',
+            placeHolder : 'Escribe aqui',
             typeInputUi : 'textarea',
             timeOutFirstQuestion : 1200,
             buttonClassStyle : 'icon2-arrow',
